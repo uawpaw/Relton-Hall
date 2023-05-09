@@ -58,6 +58,7 @@ i{
 @media (max-width: 1028px){
      #title{
         text-align: center;
+
      }
     
     #cakepic{
@@ -67,13 +68,13 @@ i{
     }
 
     body{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     p{
-        font-size: 40px;
+        font-size: 20px;
     }
     h3{
-        font-size: 50px;
+        font-size: 25px;
     }
 }
 
