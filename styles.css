@@ -60,21 +60,22 @@ i{
         text-align: center;
 
      }
+
     
-    #cakepic{
+    #hallpic{
         position: static;
         width: 60%;
         transform: rotate(0);
     }
 
     body{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     p{
-        font-size: 20px;
+        font-size: 40px;
     }
     h3{
-        font-size: 25px;
+        font-size: 50px;
     }
 }
 
