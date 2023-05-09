@@ -54,30 +54,11 @@ i{
     right: 17%;
     
 }
-
-@media (max-width: 1028px){
-     #title{
-        text-align: center;
-
-     }
-
-    
-    #hallpic{
-        position: static;
-        width: 60%;
-        transform: rotate(0);
-    }
-
-    body{
-        font-size: 2rem;
-    }
-    p{
-        font-size: 40px;
-    }
-    h3{
-        font-size: 50px;
-    }
+.navbar{
+    padding: 0 0 4.5rem;
 }
+
+
 
 
 .container-fluid{
@@ -86,9 +67,7 @@ i{
 
 
 
-.navbar{
-    padding: 0 0 4.5rem;
-}
+
 
 .navbar-brand{
     font-family: 'Ubuntu';
@@ -197,4 +176,56 @@ i{
 
 .social-icon{
     margin: 20px 10px;
+}
+@media (max-width: 1028px){
+    .btn-secondary{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        text-align: center;
+    } 
+    #title{
+        text-align: center;
+
+     }
+     h1{
+        font-size: 1.5rem;
+     }
+     h2{
+        font-size: 2rem;
+     }
+     ul
+     {
+        font-size: 1rem;
+        line-height: 1.2rem;
+
+     }
+
+
+    #activities{
+        padding: 1px;
+    }
+    
+    #hallpic{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+    .navbar{
+        padding: 0 0 2rem;
+    }
+    body{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    a.navbar-brand{
+        font-size: 1rem;
+    }
+    i{font-size: 2rem;}
+
 }
