@@ -1,0 +1,198 @@
+h1 {  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+
+i{
+    font-size: 4rem;
+}
+
+.btn-secondary{
+    background-color: #6D5D6E;
+    border-color: #393646;
+    border-width: 0.2rem;
+    border: none;
+    font-size: 2rem;
+}
+.btn-secondary:hover{
+    background-color: #393646;
+    border-color: #393646;
+    border: none;
+}
+#title{
+    background-color: #393646;
+    color: #F4EEE0;
+}
+
+#hallpic{
+    width: 70%;
+    
+    right: 17%;
+    
+}
+
+@media (max-width: 1028px){
+     #title{
+        text-align: center;
+     }
+    
+    #cakepic{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+    body{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 50px;
+    }
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+
+.dlbtn{
+    margin: 5% 3% 5% 0%;
+
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+
+.featbox{
+    text-align: center;
+    padding: 5%;
+}
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#market{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #F4EEE0;
+    color: #393646;
+
+
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#activities{
+    padding: 100px;
+    text-align: center;
+    background-color: #6D5D6E;
+    color: #F4EEE0;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#about{
+    background-color: #4F4557;
+    color: #F4EEE0;
+    padding: 7% 15%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #393646;
+    color: #F4EEE0;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
