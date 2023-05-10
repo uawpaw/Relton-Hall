@@ -49,7 +49,7 @@ i{
 }
 
 #hallpic{
-    width: 70%;
+    width: 100%;
     
     right: 17%;
     
@@ -149,6 +149,9 @@ i{
     color: #F4EEE0;
 }
 
+button {
+    width: 100%;
+}
 .pricing-column{
     padding: 3% 2%;
 }
@@ -177,6 +180,10 @@ i{
 .social-icon{
     margin: 20px 10px;
 }
+
+#actleft{
+    padding-left: 50px;
+}
 @media (max-width: 1028px){
     .btn-secondary{
         font-size: 0.7rem;
@@ -199,16 +206,19 @@ i{
         line-height: 1.2rem;
 
      }
-
+   button{
+        width: auto;
+     }
 
     #activities{
         padding: 1px;
+        
     }
     
     #hallpic{
         position: static;
-        width: 60%;
-        transform: rotate(0);
+        width: 100%;
+
     }
 
     .navbar{
@@ -227,5 +237,12 @@ i{
         font-size: 1rem;
     }
     i{font-size: 2rem;}
+
+    #market{
+        line-height: 1rem;
+    }
+    img{
+        width: 50%;
+    }
 
 }
