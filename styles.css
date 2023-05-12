@@ -43,6 +43,9 @@ i{
     border-color: #393646;
     border: none;
 }
+.btn {
+    padding-top: 30px;
+}
 #title{
     background-color: #393646;
     color: #F4EEE0;
@@ -93,6 +96,10 @@ i{
     padding: 7% 15%;
     background-color: white;
     position: relative;
+
+}
+.col{
+    padding-bottom: 20px;
 
 }
 
@@ -147,10 +154,12 @@ i{
     text-align: center;
     background-color: #6D5D6E;
     color: #F4EEE0;
+
 }
 
 button {
     width: 100%;
+    padding-top: 50px;
 }
 .pricing-column{
     padding: 3% 2%;
