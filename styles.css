@@ -15,6 +15,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 p{
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -62,12 +64,18 @@ i{
 }
 
 
-
+.Craig {
+    font-size: 1rem;
+    text-align: right;
+    padding-top: 100px;
+}
+.Craig i{
+    font-size: 2rem;
+}
 
 .container-fluid{
     padding: 3% 15% 7%;
 }
-
 
 
 
@@ -180,7 +188,7 @@ button {
 }
 
 #footer{
-    padding: 7% 15%;
+    padding: 5% 15%;
     text-align: center;
     background-color: #393646;
     color: #F4EEE0;
@@ -252,6 +260,13 @@ button {
     }
     img{
         width: 50%;
+    }
+    .Craig{
+        padding-top: 10px;
+        font-size: 0.5rem;
+    }
+    .Craig i{
+        font-size: 1rem;
     }
 
 }
